@@ -16,9 +16,9 @@ $(document).ready(function () {
         openCardWindowShow = !openCardWindowShow;
         if (openCardWindowShow) {
             document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '#222');
-            var full_name = localStorage.getItem('fullname') ? localStorage.getItem('fullname') : "Johan Lindberg";
+            var full_name = localStorage.getItem('fullname') ? localStorage.getItem('fullname') : "Svante Brandberg";
             $("#card1-fullname,#card2-fullname").text(full_name);
-            var personal_number = localStorage.getItem('PN') ? localStorage.getItem('PN'): "011023-1370";
+            var personal_number = localStorage.getItem('PN') ? localStorage.getItem('PN'): "011121-6735";
             $("#card1-PN,#card2-PN").text(personal_number);
             var theRandomNumber = parseInt(personal_number) || 0;
             var firstFourDigits = 6032;
